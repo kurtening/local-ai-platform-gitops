@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: platform-gateway
+  labels:
+    app.kubernetes.io/part-of: local-ai-platform
+    platform.local/component: gateway
